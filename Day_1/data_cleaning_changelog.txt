@@ -1,0 +1,10 @@
+VEDA TECHNOLOGY DATA ANALYTICS INTERNSHIP - DAY 1
+Task: Data Cleaning & Preprocessing
+Dataset: Sample Superstore
+============================================================
+
+- Removed 17 identical duplicate rows to prevent skewed aggregate sales/profit metrics.
+- Standardized column headers to lowercase snake_case (e.g., 'Ship Mode' -> 'ship_mode').
+- Trimmed leading and trailing whitespace across all string/categorical fields.
+- Converted 'postal_code' to zero-padded 5-digit string format (e.g., preserving leading zeros).
+- Standardized financial metrics ('sales', 'profit', 'discount') to 2 decimal places.
